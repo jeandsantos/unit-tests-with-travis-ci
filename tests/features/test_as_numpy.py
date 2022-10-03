@@ -15,3 +15,5 @@ class TestGetDataAsNumpyArray(object):
         message = "Expected return value: {0}, Actual return value: {1}".format(expected, actual)
         
         assert actual == pytest.approx(expected), message
+        
+    
