@@ -1,8 +1,8 @@
 import pytest
 import numpy as np
 
-# from src.models.train import split_into_training_and_testing_sets
-from models.train import split_into_training_and_testing_sets
+# from my_test_package.models.train import split_into_training_and_testing_sets
+from my_test_package.models.train import split_into_training_and_testing_sets
 
 class TestSplitIntoTrainingAndTestingSets(object):
 

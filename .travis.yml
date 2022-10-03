@@ -3,5 +3,8 @@ python:
   - "3.9"
 install:
   - pip install -e .
+  - pip install pytest-cov codecov
 script:
-  - pytest tests
+  - pytest --cov=my_test_package tests
+after_success: 
+  - codecov 

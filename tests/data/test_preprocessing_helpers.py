@@ -1,6 +1,6 @@
 import pytest
 # from tests.data.preprocessing_helpers import row_to_list, convert_to_int
-from data.preprocessing_helpers import convert_to_int, row_to_list
+from my_test_package.data.preprocessing_helpers import convert_to_int, row_to_list
 
 class TestRowToList(object):
             
